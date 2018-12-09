@@ -11,3 +11,5 @@ cd ~ && tar -xvzf etcd-v3.3.10-linux-amd64.tar.gz
 echo "export PATH=$PATH:/usr/lib/postgresql/11/bin:~/etcd-v3.3.10-linux-amd64/" > ~/.bashrc
 source ~/.bashrc
 pip install patroni[etcd]
+cd ~ && git clone https://github.com/zalando/patroni.git
+cd ~/patroni
